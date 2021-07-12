@@ -1,33 +1,24 @@
-# TaxAdda Backend Assignment
+# BlogFever API
 
-As part of our application process, we'd like to see what you can produce by giving you a small assignment. It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed.
+> Backend API for an Invoice Making App built on MVC architecture.
+> Error Handling - Effective implementation with each API call tested (with POSTMAN) and every possible error handled. A proper JSON response is sent for each error (status-code and message).
+> Security - noSql Injection protection, XSS protection (Cross Site Scripting), Rate Limiter, HPP protection (HTTP Parameter Pollution)
+> All validations present
 
-## The assignment
+## Usage
 
-We would like you to create the backend for an invoicing app. The APIs it should include:
+Open the ".env" file and update the values/ settings to your own.
 
-- [ ] Create a new invoice
-  - [ ] Add line items to the invoice. Line items may include hours of work at a certain rate, work-related expenses, materials, labor, etc.
-  - [ ] Add notes to the invoice, including possibly how to pay it, where to send checks, etc.
-- [ ] Ability to update the status of the invoice
-- [ ] Send the invoice via email
-- [ ] View invoices including status (paid, outstanding, late, etc.)
+## Install Dependencies
 
-#### Extra credit features
+```
+npm install
+```
 
-- [ ] Add a due date to an invoice
-- [ ] View late invoices, or even better, alert when an invoice is late
-- [ ] Tests
-- [ ] API Documentation
-- [ ] Data Validation
+## Run App
 
-## Requirements
+```
+nodemon app
+```
 
-You should use the following tools to accomplish this task:
-
-- Express
-- Node.js
-
-If you have any questions, please ask!
-
-To complete your assignment, please fork this repo and commit your work to your fork. When you are ready for us to look at it, give us access to your fork so we can review and run it.
+-License: ISC
