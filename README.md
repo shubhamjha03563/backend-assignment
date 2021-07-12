@@ -1,4 +1,4 @@
-# BlogFever API
+# Invoice App API
 
 > Backend API for an Invoice Making App built on MVC architecture.
 
