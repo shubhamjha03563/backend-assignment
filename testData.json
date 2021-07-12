@@ -1,0 +1,25 @@
+{
+  "sellerInfo": {
+    "sellerName": "Shubham",
+    "sellerEmail": "shubham@gamil.com"
+  },
+  "items": [
+    {
+      "title": "UI Design",
+      "description": "Front end design",
+      "quantity": 1,
+      "unitPrice": 20
+    },
+    {
+      "title": "API Design",
+      "description": "Backend end API design",
+      "quantity": 2,
+      "unitPrice": 30
+    }
+  ],
+  "clientInfo": {
+    "clientName": "John Cena",
+    "clientEmail": "john@gmail.com"
+  },
+  "paymentInfo": "Cash on delivery"
+}
